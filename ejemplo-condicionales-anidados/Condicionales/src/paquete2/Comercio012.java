@@ -34,7 +34,7 @@ public class Comercio012 {
 
         double sueldoFinal;
 
-        System.out.println("Ingrese el nomnre de la empresa");
+        System.out.println("Ingrese el nombre de la empresa");
         empresa = entrada.nextLine();
         
         System.out.println("Ingrese el nombre por favor");
