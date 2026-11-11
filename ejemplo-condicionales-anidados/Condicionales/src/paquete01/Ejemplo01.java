@@ -27,6 +27,7 @@ public class Ejemplo01 {
         if (opcion > 0 && opcion <= 3) {
             if (opcion==1) {
                 System.out.printf("%s\n", "Trabajar con AND");
+               
                 
             }else{
                 if (opcion==2) {
@@ -44,3 +45,10 @@ public class Ejemplo01 {
     }
 
 }
+
+/*
+    El usuario deberia ingresar la opcion 1 cuando se le pregunta la operación,
+    ya que asi cumple la primera condición de ser mayor a cero y menor o igual a 3
+    luego pasa por la condición de ser igual a 1, finaliza el proceso y sale la 
+    en pantalla Trabajar con AND
+*/
